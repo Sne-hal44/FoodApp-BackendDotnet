@@ -19,6 +19,8 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();//we are injecting
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
 builder.Services.AddScoped<IUserRoleService, UserRoleService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

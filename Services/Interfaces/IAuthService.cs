@@ -1,4 +1,4 @@
-﻿using FoodApp.Dtos.Users;
+﻿using FoodApp.Dtos.Login;
 
 namespace FoodApp.Services.Interfaces
 {     

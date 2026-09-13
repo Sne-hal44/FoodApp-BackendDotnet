@@ -1,4 +1,4 @@
-﻿using FoodApp.Dtos.Users;
+﻿using FoodApp.Dtos.Login;
 using FoodApp.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 

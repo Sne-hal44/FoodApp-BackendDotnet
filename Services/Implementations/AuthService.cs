@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using FoodApp.Dtos.Users;
+using FoodApp.Dtos.Login;
 using FoodApp.Repositories.Interfaces;
 using FoodApp.Services.Interfaces;
 
