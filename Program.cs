@@ -18,7 +18,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("LocalDataConnect
 builder.Services.AddScoped<IUserRepository, UserRepository>();//we are injecting UserRepository here
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
-
+builder.Services.AddScoped<IUserRoleService, UserRoleService>();
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

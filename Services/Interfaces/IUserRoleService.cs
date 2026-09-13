@@ -15,4 +15,4 @@ namespace FoodApp.Services.Interfaces
         Task<bool> DeleteUserRoleAsync(int id);
     }
 }
-}
+
